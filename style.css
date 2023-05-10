@@ -1,0 +1,86 @@
+body{
+  font-family: Space Mono;
+  color: #058C42;
+  background-color: #020202;
+  padding: 15px;
+  text-align: center;
+}
+
+.image-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 20px;
+}
+
+.pepe {
+  height: 30%;
+  width: 30%;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: Space Grotesk;
+  color: #2bcc2b;
+  font-weight: bold;
+  font-size: large;
+}
+
+.text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  margin: 20px;
+  width: 70%;
+  border: 5px solid #2bcc2b;
+}
+
+.card.projects {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-align: center;
+  flex-flow: row nowrap;
+}
+
+.card.socials {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border: 0px;
+  padding: 0;
+  margin: 0;
+  width: 10%
+}
+
+
+.card.projects li {
+  max-width: 35%;
+  align-items: center;
+
+}
+
+a{
+  text-decoration: none;
+  color: #16DB65;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+
+
+.image-round {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
